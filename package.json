@@ -1,0 +1,28 @@
+{
+  "name": "thtp",
+  "version": "0.0.1",
+  "description": "A THTP client library implementing Thrift-RPC over standard persistent HTTP connections",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anujdas/thtp-js.git"
+  },
+  "keywords": [
+    "thtp",
+    "thrift",
+    "thrift-rpc",
+    "rpc",
+    "http",
+    "https",
+    "persistent"
+  ],
+  "author": "Anuj Das <anujdas@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anujdas/thtp-js/issues"
+  },
+  "homepage": "https://github.com/anujdas/thtp-js#readme"
+}
