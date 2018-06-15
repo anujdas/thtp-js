@@ -1,6 +1,6 @@
 {
   "name": "thtp",
-  "version": "9.0.1",
+  "version": "0.0.1",
   "description": "A THTP client library implementing Thrift-RPC over standard persistent HTTP connections",
   "main": "lib/index.js",
   "scripts": {
