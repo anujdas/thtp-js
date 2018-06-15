@@ -1,11 +1,10 @@
 {
   "name": "thtp",
-  "version": "0.0.1",
+  "version": "9.0.1",
   "description": "A THTP client library implementing Thrift-RPC over standard persistent HTTP connections",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
-    "lint": "eslint .",
-    "test": "npm test"
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
@@ -26,8 +25,15 @@
     "url": "https://github.com/anujdas/thtp-js/issues"
   },
   "homepage": "https://github.com/anujdas/thtp-js#readme",
+  "dependencies": {
+    "node-fetch": "^2.1.2"
+  },
   "devDependencies": {
     "eslint": "^4.19.1",
-    "eslint-config-brigade": "^7.0.0"
+    "eslint-config-brigade": "^7.0.0",
+    "thrift": "^0.11.0"
+  },
+  "peerDependencies": {
+    "thrift": "^0.11.0"
   }
 }
