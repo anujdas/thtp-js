@@ -1,5 +1,13 @@
 # thtp-js
 
+`thtp-js` provides a THTP (Thrift-RPC over HTTP) client for Javascript. Written
+in ES6, it provides most of the features of the Ruby client, namely persistent
+pooled connections, timeouts, and transparent serialisation/deserialisation of
+Thrift requests and responses.
+
+For more details about uses cases, the protocol, or server implementation,
+check out [THTP](https://github.com/anujdas/thtp).
+
 ## Client
 
 The THTP client requires Thrift definitions which have been augmented to expose
